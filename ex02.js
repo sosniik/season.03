@@ -8,7 +8,7 @@ if(!PORT){
 }
 
 const server = http.createServer((_,res) =>{
-    res.write('<h1>Hello World!</h1>\n')
+    res.write('gft')
     res.end()
 })
 
